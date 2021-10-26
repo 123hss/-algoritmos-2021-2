@@ -1,0 +1,10 @@
+# include <stdio.h>
+int main()
+{ 
+	short s;
+	int i;
+	scanf("%hd%d",&s,&i);
+	printf("%hd\n",s);
+	printf("%d\n",i);
+	return 0;
+}
